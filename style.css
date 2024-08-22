@@ -16,6 +16,9 @@ body{
     width: 550px;
     height: 550px;
     margin:80px auto;
+    border-radius:10px;
+    box-shadow:6px 6px 1px black;
+    
 }
 
 #hero{
@@ -39,6 +42,7 @@ body{
 
 #random-sect{
     color:#10B981;
+    text-shadow: 6px 6px 1px black;
 
 }
 
@@ -71,7 +75,7 @@ body{
     line-height: 24px;
     margin-bottom: 30px;
     border:none;
-    box-shadow: 6px 6px 1px #1C1C1C;
+    box-shadow: 6px 6px 1px black;
 
 
 }
@@ -104,8 +108,24 @@ body{
     font-size: 16px;
     line-height:32px;
     background-color: #2F3E53;
+    color:#10B981;
     width: 210px;
     height: 39px;
     border-radius: 6px;
+    box-shadow: 6px 6px 1px black;
+    
+    
 
 }
+
+
+.passDesign{
+    margin:0;
+    padding-top: 3px;
+   
+    
+
+
+    
+}
+
