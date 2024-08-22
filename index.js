@@ -1,6 +1,7 @@
 let passOneEl = document.getElementById("password-one")
 let passTwoEl = document.getElementById("password-two")
 let generateBtn = document.getElementById("generate-btn")
+let passLength = document.getElementById("length-input")
 
 const characters = ["A","B","C","D","E","F","G","H",
     "I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",
@@ -20,7 +21,9 @@ generateBtn.addEventListener("click",function(){
 
 function randomPassword(passNum){
 
-    for (let i = 0; i < 15; i ++){
+    let length = passLength.value
+
+    for (let i = 0; i < length; i ++){
         let randomNum = Math.floor(Math.random()*characters.length)
         passNum.textContent+= characters[randomNum]
     }
